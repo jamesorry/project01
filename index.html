@@ -1,130 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!--[if IE]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <![endif]-->
-    <title>Bootstrap Template - Simpla by Binarytheme</title>
-    <!--REQUIRED STYLE SHEETS-->
-    <!-- BOOTSTRAP CORE STYLE CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- FONTAWESOME STYLE CSS -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-    <!-- CUSTOM STYLE CSS -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <!-- GOOGLE FONT -->
-    <link href='http://fonts.googleapis.com/css?family=Ruluko' rel='stylesheet' type='text/css' />
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pop HTML5 Template</title>
+
+    <!-- load CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300">  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                  <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-all.min.css">                <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>                       <!-- http://kenwheeler.github.io/slick/ -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/tooplate-style.css">                               <!-- Templatemo style -->
+
+    <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this in a modern browser such as latest version of Chrome or Microsoft Edge.");</script>
+    
 </head>
+
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="htttp://www.binarytheme.com">YOUR LOGO </a>
+    <div id="tm-bg"></div>
+    <div id="tm-wrap">
+        <div class="tm-main-content">
+            <div class="container tm-site-header-container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-md-col-xl-6 mb-md-0 mb-sm-4 mb-4 tm-site-header-col">
+                        <div class="tm-site-header">
+                            <h1 class="mb-4">LU MING-BIN</h1>
+                            <img src="img/underline.png" class="img-fluid mb-4">
+                            <p>呂銘斌-個人網站</p>        
+                        </div>                        
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="content">
+                            <div class="grid">
+                                <div class="grid__item" id="home-link">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-home fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">個人簡介</span>
+                                            <div class="product__bg"></div>        
+                                        </div>                                    
+                                        <div class="product__description">
+                                            <div class="row mb-3">
+                                                <div class="col-12">
+                                                    <h2 class="tm-page-title">Welcome to Pop Design</h2>        
+                                                </div>
+                                            </div>                                        
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                    <img src="img/welcome-1.jpg" class="img-fluid mb-3">
+                                                    <p>You can feel free to use this template for your websites. Please tell your friends about Tooplate website. Thank you.</p>
+                                                    <p>Vivamus placerat in nunc eget volutpat. Etiam tincidunt blandit sapien, sed posuere enim. Ut eget ornare lectus.</p>    
+                                                </div>
+                                                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                    <p>Donec eu lectus ligula. Aenean pulvinar dolor et massa lacinia rhoncus sit amet sed mauris. Aliquam dictum nibh et consequat finibus.</p>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mauris, malesuada ut diam eu, pellentesque fringilla orci.</p>
+                                                    <img src="img/welcome-2.jpg" class="img-fluid">
+                                                </div>                                        
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__item" id="team-link">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-users fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">機構演講-心得</span>
+                                            <div class="product__bg"></div>            
+                                        </div>                                     
+                                        <div class="product__description">
+                                            <div class="p-sm-4 p-2">
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <h2 class="tm-page-title">Background of Our Team</h2>        
+                                                    </div>
+                                                </div>
+                                                <div class="row tm-reverse-sm">
+                                                    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                                        <p class="mb-4">Vestibulum aliquet, arcu accumsan lobortis bibendum, justo velit efficitur lorem, at pulvinar mi justo nec lacus. Nullam et libero aliquet, luctus nunc sit amet, tincidunt ligula. Sed finibus ante sed tortor cursus, nec malesuada lectus interdum.</p>
+                                                        <p class="mb-4">Sed ex turpis, vulputate in efficitur id, lobortis eget nibh. Pellentesque maximus ipsum eget velit imperdiet sodales. Suspendisse in blandit mi.</p>
+                                                        <p class="mb-5">Pellentesque finibus felis risus, ut malesuada felis viverra at. Quisque accumsan in mi non hendrerit.</p>
+                                                        <a href="#" class="btn tm-btn-gray">Read More</a>        
+                                                    </div>                                                
+                                                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-lg-0 mb-sm-4 mb-4">
+                                                        <img src="img/team.jpg" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__item">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-handshake fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">機構參訪-心得</span>
+                                            <div class="product__bg"></div>             
+                                        </div>                                                                 
+                                        <div class="product__description">
+                                            <div class="p-sm-4 p-2">
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <h2 class="tm-page-title">Our Work</h2>        
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <p>Aliquam interdum, nisl sed faucibus tempor, massa velit laoreet ipsum, et faucibus sapien magna at enim. Suspendisse a dictum tortor, vel rhoncus libero. Integer at lacus velit. Nullam dapibus venenatis placerat.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="p-sm-4 p-2 tm-img-container">
+                                                            <div class="tm-img-slider" id="tmImgSlider">
+                                                              <img src="img/gallery-img-01-tn.jpg" alt="Image" class="tm-slider-img">
+                                                              <img src="img/gallery-img-02-tn.jpg" alt="Image" class="tm-slider-img">
+                                                              <img src="img/gallery-img-03-tn.jpg" alt="Image" class="tm-slider-img">
+                                                              <img src="img/gallery-img-04-tn.jpg" alt="Image" class="tm-slider-img">
+                                                              <img src="img/gallery-img-05-tn.jpg" alt="Image" class="tm-slider-img">
+                                                              <img src="img/gallery-img-06-tn.jpg" alt="Image" class="tm-slider-img">
+                                                            </div>
+                                                        </div>  
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>       
+                                    </div>
+                                </div>
+
+                                <div class="grid__item">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-comments fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">Contact</span>
+                                            <div class="product__bg"></div>             
+                                        </div>                                                              
+                                        <div class="product__description">
+                                            <div class="pt-sm-4 pb-sm-4 pl-sm-5 pr-sm-5 pt-2 pb-2 pl-3 pr-3">
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <h2 class="tm-page-title">Contact Us</h2>        
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-4">
+                                                    <div class="col-12">
+                                                        <p>Lorem ipsum dolor site amet, consectetur adipiscing elit. Aliquam interdum, nisl sed faucibus tempor, massa velit laoreet ipsum, et faucibus sapien magna at enim. Suspendisse a dictum tortor, vel rhoncus libero.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <form action="index.html" method="post" class="contact-form">
+                                                            <div class="row">
+                                                                <div class="form-group col-md-6 col-lg-6 col-xl-6">
+                                                                  <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
+                                                                </div>
+                                                                <div class="form-group col-md-6 col-lg-6 col-xl-6 tm-col-email">
+                                                                  <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
+                                                                </div>
+                                                            </div>                                                        
+                                                            <div class="form-group">
+                                                              <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
+                                                            </div>
+                                                            <button type="submit" class="btn btn-primary tm-btn-submit">Submit</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>                       
+                    </div>
+                </div>                
             </div>
-            <!-- Collect the nav links for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">HOME</a>
-                    </li>
-                    <li><a href="#about">ABOUT ME</a>
-                    </li>
-
-                    <li><a href="#"><strong>e-mail:</strong>  jamesnail333@gmail.com</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-    <!--End Navigation -->
-
-
-    <!--Header section  -->
-    <div class="container" id="home">
-        <div class="row text-center ">
-             <div class="col-md-3 head-main ">             
-                            <i class="fa fa-bell color-blue "></i>
-                         <h3>  <a href="#home">HOME</a></h3>
-   
-                 </div>
-            <div class="col-md-3 head-main">
-    
-                          <i class="fa fa-edit color-blue "></i>
-                         <h3>  <a href="#about">ABOUT ME</a></h3>
-       
-                 </div>
-
-          </div>
+            <footer>
+                <p class="small tm-copyright-text">Copyright &copy; <span class="tm-current-year">2020</span> LU MING-BIN 
+                </p>
+            </footer>
+        </div> <!-- .tm-main-content -->  
     </div>
-    <!--End Header section  -->
+    <!-- load JS -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>         <!-- https://jquery.com/ -->    
+    <script src="slick/slick.min.js"></script>                  <!-- http://kenwheeler.github.io/slick/ -->  
+    <script src="js/anime.min.js"></script>                     <!-- http://animejs.com/ -->
+    <script src="js/main.js"></script>  
+    <script>      
 
+        function setupFooter() {
+            var pageHeight = $('.tm-site-header-container').height() + $('footer').height() + 100;
 
-    <!--About Section-->
-    <section class="for-full-back color-light " id="about">
-        <div class="container">
+            var main = $('.tm-main-content');
 
-            <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2">
-                    <h1>呂銘斌</h1>
-                    <h4>
-                        <strong>電機四乙 10528206 
-                        </strong>
-                    </h4>
-                </div>
+            if($(window).height() < pageHeight) {
+                main.addClass('tm-footer-relative');
+            }
+            else {
+                main.removeClass('tm-footer-relative');   
+            }
+        }
 
-            </div>
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <h2>參訪心得</h2>
-                    <p>
-                      我覺得這幾次的參訪讓我對身心障礙的看法改變了，覺得這些孩子怎麼會遭遇這樣的情況呢
-                      明明從外表看起來是如此天真，與其他小孩子根本看不出差別，但其實他們的心智年齡就可
-                      能會一輩子就停留在現在這個情況，真是令人不捨。
-                    </p>
-                    <p>
-                      老師告訴我們他們的需求是想要改進爬行地墊，想要升級它，地墊的目的是要用來，讓腦麻
-                      小孩爬行，上面希望有聲光，或是觸覺，目的是想要增加小孩爬行的動力，希望透過外來刺激
-                      以至於使他們可以有動力向前爬行。
-                    </p>
-                </div>
+        /* DOM is ready
+        ------------------------------------------------*/
+        $(function(){
 
-            </div>
-            
-            
-        </div>
+            setupFooter();
 
+            $(window).resize(function(){
+                setupFooter();
+            });
 
-    </section>  
-   
-    <!--End About Section-->
+            $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright           
+        });
 
-    
-    <!--footer Section -->
-    <div class="for-full-back " id="footer">
-        creat by 呂銘斌
-    </div>
-    <!--End footer Section -->
-    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
-    <!-- CORE JQUERY  -->
-    <script src="assets/plugins/jquery-1.10.2.js"></script>
-    <!-- BOOTSTRAP CORE SCRIPT   -->
-    <script src="assets/plugins/bootstrap.js"></script>
-    <!-- CUSTOM SCRIPTS -->
-    <script src="assets/js/custom.js"></script>
+    </script>             
 
 </body>
 </html>
