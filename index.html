@@ -1,69 +1,130 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
+<!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>James</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="w3.css">
-<style>
-.mySlides {display:none;}
-</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>Bootstrap Template - Simpla by Binarytheme</title>
+    <!--REQUIRED STYLE SHEETS-->
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLE CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- GOOGLE FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Ruluko' rel='stylesheet' type='text/css' />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 </head>
-
 <body>
-  <h1 style="font-size:250%">呂銘斌</h1>
-  <p>Birthday: 1997/12/27<br></p>
-  <p>Hometown: Taiwan, Chiayi</p>
-  <li>
-    <a href="https://github.com/jamesorry/project01" style="font-size:150%">Gitgub</a>
-  </li>
-  <li>
-    <a href="/profile/" style="font-size:150%">BLOG</a>
-  </li>
-  <li>
-    <a href="/profile/" style="font-size:150%">Line</a>
-  </li>
-  <li>
-    <a href="/profile/" style="font-size:150%">IG</a>
-  </li>
-  <li>
-    <a href="/profile/" style="font-size:150%">Facebook</a>
-  </li>
- 
-  <h2>favorite Singer : <img src="images/logo_lisa.png" 
-  alt="LiSA" width="70" height="20"></h2>
-  <div class="w3-content w3-display-container" style="width:500px">
-  <img class="mySlides" src="images/disco.jpg" style="width:100%">
-  <img class="mySlides" src="images/info.jpg" style="width:100%">
-  <img class="mySlides" src="images/live.jpg" style="width:100%">
-  <img class="mySlides" src="images/media.jpg" style="width:100%">
-  <img class="mySlides" src="images/1.jpg" style="width:100%">
-  <img class="mySlides" src="images/2.jpg" style="width:100%">
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="htttp://www.binarytheme.com">YOUR LOGO </a>
+            </div>
+            <!-- Collect the nav links for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">HOME</a>
+                    </li>
+                    <li><a href="#about">ABOUT ME</a>
+                    </li>
 
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div> 
-<script>
-  var slideIndex = 1;
-  showDivs(slideIndex);
-  
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
-  
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";  
-    }
-    x[slideIndex-1].style.display = "block";  
-  }
-  </script>          
-           
+                    <li><a href="#"><strong>e-mail:</strong>  jamesnail333@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!--End Navigation -->
+
+
+    <!--Header section  -->
+    <div class="container" id="home">
+        <div class="row text-center ">
+             <div class="col-md-3 head-main ">             
+                            <i class="fa fa-bell color-blue "></i>
+                         <h3>  <a href="#home">HOME</a></h3>
+   
+                 </div>
+            <div class="col-md-3 head-main">
+    
+                          <i class="fa fa-edit color-blue "></i>
+                         <h3>  <a href="#about">ABOUT ME</a></h3>
+       
+                 </div>
+
+          </div>
+    </div>
+    <!--End Header section  -->
+
+
+    <!--About Section-->
+    <section class="for-full-back color-light " id="about">
+        <div class="container">
+
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>呂銘斌</h1>
+                    <h4>
+                        <strong>電機四乙 10528206 
+                        </strong>
+                    </h4>
+                </div>
+
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h2>參訪心得</h2>
+                    <p>
+                      我覺得這幾次的參訪讓我對身心障礙的看法改變了，覺得這些孩子怎麼會遭遇這樣的情況呢
+                      明明從外表看起來是如此天真，與其他小孩子根本看不出差別，但其實他們的心智年齡就可
+                      能會一輩子就停留在現在這個情況，真是令人不捨。
+                    </p>
+                    <p>
+                      老師告訴我們他們的需求是想要改進爬行地墊，想要升級它，地墊的目的是要用來，讓腦麻
+                      小孩爬行，上面希望有聲光，或是觸覺，目的是想要增加小孩爬行的動力，希望透過外來刺激
+                      以至於使他們可以有動力向前爬行。
+                    </p>
+                </div>
+
+            </div>
+            
+            
+        </div>
+
+
+    </section>  
+   
+    <!--End About Section-->
+
+    
+    <!--footer Section -->
+    <div class="for-full-back " id="footer">
+        creat by 呂銘斌
+    </div>
+    <!--End footer Section -->
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="assets/plugins/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP CORE SCRIPT   -->
+    <script src="assets/plugins/bootstrap.js"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+
 </body>
 </html>
